@@ -14,7 +14,7 @@ $(document).ready(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 	
 	// SCROLL TO FIXED
-	$('#header-microbiz').scrollToFixed();
+	$('#navbar-apecsaos').scrollToFixed();
 
 	// SET HEIGHT CAROUSEL HOME
 	$('.carousel-car .item').each(function(){

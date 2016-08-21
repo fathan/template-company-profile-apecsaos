@@ -28,10 +28,10 @@ a{
     height: 37px;
     text-align: center;
     line-height: 30px;
-    background: #1e55a3;
+    background: #961f4e;
     color: #FFFFFF;
     cursor: pointer;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #961f4e;
     border-radius: 0px;
     text-decoration: none;
     transition: opacity 0.2s ease-out;
@@ -50,4 +50,10 @@ a{
 
 #back-to-top.show {
     opacity: 1;
+}
+
+// SLIDER
+.slider-apecsa{
+    width: 100%;
+    display: inline-block;
 }

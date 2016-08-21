@@ -1,3 +1,40 @@
 .footer-wrapper{
-	
+	background: #222222;
+	text-align: center;
+	padding: 70px 0px;
+
+	.box-footer{
+		margin: auto;
+		display: inline-block;
+
+		.image{
+			margin-bottom: 25px;
+
+			img{
+
+			}
+		}
+
+		.social-media{
+			margin-bottom: 25px;
+			width: 100%;
+			display: inline-block;
+
+			a{
+				margin-right: 20px;
+
+				&:last-child{
+					margin-right: 0px;
+				}
+			}
+		}
+
+		.corpyright{
+			margin-bottom: 20px;
+
+			span{
+				color: $color-white;
+			}
+		}
+	}
 }

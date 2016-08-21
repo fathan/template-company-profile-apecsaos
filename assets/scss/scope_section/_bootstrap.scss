@@ -1,0 +1,47 @@
+// NAVBAR
+.navbar{
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border: 0px solid transparent;
+	box-shadow: 0 1px 2px #bbbbbb;
+	text-transform: normal;
+}
+
+.navbar-default {
+    background-color: #FFFFFF;
+}
+
+.navbar-collapse,
+.navbar-header{
+	margin: 6px 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #222222;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #f27128;
+    background-color: transparent;
+}
+
+.navbar-brand {
+	padding: 0px;
+	height: 45px;
+}
+
+.navbar-brand>img {
+	height: 100%;
+	padding: 5px;
+	width: auto;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #f27128;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #f27128;
+    background-color: transparent;
+}

@@ -15,7 +15,8 @@ gulp.task('styles', function () {
 gulp.task('serve', function () {
   browserSync.init({
     server: {
-      baseDir: './'
+      baseDir: './',
+      port: 3010
     }
   });
 

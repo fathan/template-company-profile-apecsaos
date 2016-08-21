@@ -1,3 +1,61 @@
 .header-wrapper{
-	
+	background: #E2E2E2;
+	width: 100%;
+	padding: 7px 0px;
+
+	.box-header{
+		margin-top: 10px;
+
+		.introduce{
+			float: left;
+			width: 30%;
+
+			span{
+				float: left;
+				padding: 0px;
+			}
+		}
+
+		.content{
+			float: right;
+			width: 70%;
+
+			ul{
+				padding: 0px;
+				float: right;
+
+				li{
+					list-style: none;
+				    float: left;
+				    margin-right: 10px;
+				    border-right: 1px solid #b3acac;
+				    padding: 0px 20px 0px 0px;
+
+					&:last-child{
+						margin-right: 0px;
+						border-right: 0px;
+					}
+
+					.icon{
+						background: #be1f5e;
+						border-radius: 50%;
+						width: 25px;
+						height: 25px;
+						float: left;
+						text-align: center;
+
+						i{
+							font-size: 12px;
+							color: #FFFFFF;
+						}
+					}
+
+					span{
+						margin-left: 5px;
+						color: #000000;
+					}
+				}
+			}
+		}
+	}
 }
