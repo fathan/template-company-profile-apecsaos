@@ -1,0 +1,53 @@
+body{
+	font-family: open-sans-regular;
+    width: 100%;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+    @include transition(0.4s);
+}
+
+.apecsaos-wrapper{
+    overflow: hidden;
+}
+
+.wow {
+   visibility: hidden;
+}
+
+
+// BACK TO TOP
+#back-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    z-index: 9999;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    line-height: 30px;
+    background: #1e55a3;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    font-size: 20px;
+    padding: 0px;
+    border-radius: 50%;
+    @include transition(0.4s);
+}
+
+#back-to-top:hover {
+    background: #FFFFFF;
+    color: #3a536d;
+    @include transition(0.4s);
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
