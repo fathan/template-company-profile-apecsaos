@@ -1,0 +1,140 @@
+.content-video{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+
+	.video-wrapper{
+		width: 100%;
+	}
+
+	.content-wrapper{
+		width: 100%;
+		display: inline-block;
+		margin-bottom: 50px;
+
+		.title{
+			font-size: 20px;
+			color: $color-apecsa-red-pink;
+			margin-bottom: 20px;
+			letter-spacing: 2px;
+			font-family: open-sans-bold;
+		}
+
+		.desc{
+			width: 100%;
+		}
+	}	
+}
+
+.counting-data{
+	width: 100%;
+	display: inline-block;
+
+	.list-data{
+		text-align: center;
+
+		ul{
+			padding-left: 0px;
+
+			li{
+				list-style: none;
+				width: 33.3333%;
+				float: left;
+				padding: 60px 0px;
+				background: $color-apecsa-red-pink;
+				border-right: 1px solid #AB0F4C;
+
+				&:last-child{
+					border: 0px;
+				}
+
+				.title{
+					font-size: 25px;
+					color: $color-white;
+					margin-bottom: 20px;
+					letter-spacing: 2px;
+					font-family: open-sans-bold;
+				}
+
+				.number{
+					font-size: 25px;
+					color: $color-white;
+					margin-bottom: 20px;
+					letter-spacing: 2px;
+				}
+			}
+		}
+	}
+}
+
+.our-team{
+	width: 100%;
+	display: inline-block;
+
+	.list-team{
+		width: 100%;
+
+		.box-user{
+			width: 100%;
+			position: relative;
+			margin-bottom: 30px;
+
+			.image{
+				overflow: hidden;
+				width: 100%;
+				height: 250px;
+				border: 1px solid #CCCCCC;
+
+				&:hover{
+					@include transition(0.4s);
+
+					.overlay{
+						position: absolute;
+						background: rgba(0, 0, 0, 0.43);
+						top: 0;
+						bottom: 0;
+						left: 0;
+						right: 0;
+						@include transition(0.4s);
+
+						.box-info{
+							margin-top: 40%;
+							width: 100%;
+							text-align: center;
+							display: inline-block;
+
+							.name{
+								color: $color-white;
+								font-size: 16px;
+								font-family: open-sans-bold;
+								@include transition(0.4s);
+							}
+
+							.position{
+								color: $color-white;
+								font-size: 12px;
+								@include transition(0.4s);
+							}
+						}
+					}
+
+					.image{
+						overflow: hidden;
+						width: 100%;
+						height: 250px;
+
+						img{
+							width: 100%;
+							height: auto;
+						}
+					}
+				}
+
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+}

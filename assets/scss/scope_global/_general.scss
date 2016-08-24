@@ -10,7 +10,7 @@ a{
 }
 
 section{
-    padding: 70px 0px;
+    padding: 100px 0px;
     margin-bottom: -5px;
     background: #f1f1f1;
 
@@ -28,7 +28,7 @@ section{
             margin:0px 0 40px;
 
             &.bdr-btm-gray{
-                border-bottom: 1px solid $color-apecsa-gray-dark; 
+                border-bottom: 1px solid #cecece; 
             }
 
             &.bdr-btm-orange{
@@ -121,7 +121,7 @@ section{
 }
 
 .bg-img-1{
-    background-image: url(http://cdn.allwallpaper.in/wallpapers/3100x1300/11377/cityscapes-indonesia-cities-skyline-jakarta-3100x1300-wallpaper.jpg);
+    background-image: url(../images/slider/slider_5.jpg);
     min-height: 100%;
 
     &:before{
@@ -130,10 +130,39 @@ section{
 }
 
 .bg-img-2{
-    background-image: url(http://www.ryylxjw.com/data/out/106/41620734-jakarta-wallpapers.jpg);
+    background-image: url(../images/slider/slider_5.jpg);
     min-height: 100%;
 
     &:before{
         background: rgba(0, 0, 0, 0.43);
     }
+}
+
+.bg-service{
+    background-image: url(../images/sub_header/header1.jpg);
+    min-height: 100%;
+
+    &:before{
+        background: rgba(0, 0, 0, 0.43);
+    }
+}
+
+.bg-portfolio{
+    background-image: url(../images/sub_header/header2.jpg);
+    min-height: 100%;
+
+    &:before{
+        background: rgba(0, 0, 0, 0.43);
+    }
+}
+
+.bg-overlay-full{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.54);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

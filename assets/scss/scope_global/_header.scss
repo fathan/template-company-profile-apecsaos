@@ -1,3 +1,28 @@
+.scroll-to-fixed-fixed{
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        	-ms-animation: fadein 2s; /* Internet Explorer */
+         		-o-animation: fadein 2s; /* Opera < 12.1 */
+            		animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .header-wrapper{
 	background: #E2E2E2;
 	width: 100%;
@@ -57,5 +82,26 @@
 				}
 			}
 		}
+	}
+}
+
+.sub-header{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+
+	.title{
+		font-size: 30px;
+		font-weight: bold;
+		margin-bottom: 30px;
+		letter-spacing: 2px;
+		color: $color-white;
+	}
+
+	.description{
+		font-size: 18px;
+		line-height: 25px;
+		letter-spacing: 2px;
+		color: $color-white;
 	}
 }

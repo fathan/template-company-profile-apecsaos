@@ -2,6 +2,7 @@
 	background: #222222;
 	text-align: center;
 	padding: 70px 0px;
+	margin-top: -5px;
 
 	.box-footer{
 		margin: auto;
@@ -22,6 +23,47 @@
 
 			a{
 				margin-right: 20px;
+				@include border-radius(50%);
+
+				&.facebook{
+					background: #3B5998;
+					color: $color-white;
+
+					&:hover{
+						background: $color-white;
+						color: $color-black;
+					}
+				}
+
+				&.twitter{
+					background: #1DA1F2;
+					color: $color-white;
+
+					&:hover{
+						background: $color-white;
+						color: $color-black;
+					}
+				}
+
+				&.linkedin{
+					background: #1884BB;
+					color: $color-white;
+
+					&:hover{
+						background: $color-white;
+						color: $color-black;
+					}
+				}
+				
+				&.instagram{
+					background: #1884BC;
+					color: $color-white;
+
+					&:hover{
+						background: $color-white;
+						color: $color-black;
+					}
+				}
 
 				&:last-child{
 					margin-right: 0px;

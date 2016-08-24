@@ -1,84 +1,523 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  	<title>PT. Apecsa Optima Solusi - Portfolio</title>
-  	<meta charset="utf-8">
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+ <title>PT. Apecsa Optima Solusi - Portfolio</title>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  	<!-- SCOPE MOBILE VERSION RESPONSIVE -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+ <!-- SCOPE MOBILE VERSION RESPONSIVE -->
+ <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
 
-  	<!-- SCOPE ADD TO HOMESCREEN AND THEME COLOR -->
-  	<meta name="mobile-web-app-capable" content="yes" />
-  	<meta name="apple-mobile-web-app-title" content="PT. Apecsa Optima Solusi">
-  	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+ <!-- SCOPE ADD TO HOMESCREEN AND THEME COLOR -->
+ <meta name="mobile-web-app-capable" content="yes" />
+ <meta name="apple-mobile-web-app-title" content="PT. Apecsa Optima Solusi">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-  	<!-- SCOPE COLOR FOR BROWSER CHROME, FIREFOX AND OPERA -->
-  	<meta name="theme-color" content="#F17127" />
+ <!-- SCOPE COLOR FOR BROWSER CHROME, FIREFOX AND OPERA -->
+ <meta name="theme-color" content="#F17127" />
 
-  	<!-- SCOPE BROWSER WINDOWS PHONE -->
-  	<meta name="msapplication-navbutton-color" content="#F17127">
+ <!-- SCOPE BROWSER WINDOWS PHONE -->
+ <meta name="msapplication-navbutton-color" content="#F17127">
 
-  	<!-- SCOPE BROWSER IOS, SAFARI BROWSER -->
-  	<meta name="apple-mobile-web-app-capable" content="yes">
-  	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  	<meta name="HandheldFriendly" content="true" />
+ <!-- SCOPE BROWSER IOS, SAFARI BROWSER -->
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <meta name="HandheldFriendly" content="true" />
 
-  	<!-- SCOPE SHARE FACEBOOK -->
-  	<meta property="og:url" content="http://urlnya.com/"/>
-  	<meta property="og:type" content="article"/>
-  	<meta property="og:title" content="PT. Apecsa Optima Solusi"/>
-  	<meta property="og:description" content="PT. Apecsa Optima Solusi"/>
-  	<meta property="og:image" content="URL IMAGE WEBSITE"/>
+ <!-- SCOPE SHARE FACEBOOK -->
+ <meta property="og:url" content="http://urlnya.com/"/>
+ <meta property="og:type" content="article"/>
+ <meta property="og:title" content="PT. Apecsa Optima Solusi"/>
+ <meta property="og:description" content="PT. Apecsa Optima Solusi"/>
+ <meta property="og:image" content="URL IMAGE WEBSITE"/>
 
-  	<!-- SCOPE SHARE TWITTER -->
-  	<meta name="twitter:card" content="summary"/>
-  	<meta name="twitter:site" content="apecsa"/>
-  	<meta name="twitter:title" content="PT. Apecsa Optima Solusi">
-  	<meta name="twitter:description" content="PT. Apecsa Optima Solusi"/>
-  	<meta name="twitter:creator" content="Fathan Rohman"/>
-  	<meta name="twitter:image:src" content="https://website.com/image250X250.png"/>
-  	<meta name="twitter:domain" content="website.com"/>
+ <!-- SCOPE SHARE TWITTER -->
+ <meta name="twitter:card" content="summary"/>
+ <meta name="twitter:site" content="apecsa"/>
+ <meta name="twitter:title" content="PT. Apecsa Optima Solusi">
+ <meta name="twitter:description" content="PT. Apecsa Optima Solusi"/>
+ <meta name="twitter:creator" content="Fathan Rohman"/>
+ <meta name="twitter:image:src" content="https://website.com/image250X250.png"/>
+ <meta name="twitter:domain" content="website.com"/>
 
-  	<!-- SCOPE SHARE GOOGLE PLUS -->
-  	<meta itemprop="name" content="PT. Apecsa Optima Solusi"/>
-  	<meta itemprop="description" content="Apecsa Optima Solusi (ApecsaOS) Bergerak di jasa pembuatan aplikasi, e-gov, erp, custom software, mobile application"/>
-  	<meta itemprop="image" content="https://website.com/image250X250.png"/>
+ <!-- SCOPE SHARE GOOGLE PLUS -->
+ <meta itemprop="name" content="PT. Apecsa Optima Solusi"/>
+ <meta itemprop="description" content="Apecsa Optima Solusi (ApecsaOS) Bergerak di jasa pembuatan aplikasi, e-gov, erp, custom software, mobile application"/>
+ <meta itemprop="image" content="https://website.com/image250X250.png"/>
 
-    <!-- SCOPE STLYESHEET -->
-    <link rel="icon" type="image/ico" href="assets/images/logo/favicon.ico"/>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/main-responsive.css">
+ <!-- SCOPE STLYESHEET -->
+ <link rel="icon" type="image/ico" href="assets/images/logo/favicon.ico"/>
+ <link rel="stylesheet" href="assets/css/bootstrap.css">
+ <link rel="stylesheet" href="assets/css/font-awesome.css">
+ <!-- http://devicon.fr/ -->
+ <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+ <link rel="stylesheet" href="assets/css/animate.min.css">
+ <link rel="stylesheet" href="assets/css/main.css">
+ <link rel="stylesheet" href="assets/css/main-responsive.css">
 
-    <script src="assets/js/jquery-3.1.0.min.js"></script>
-  </head>
-  <body>
-    <div class="apecsaos-wrapper">
-      <!-- START SCOPE HEADER -->
+ <script src="assets/js/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+  <div class="apecsaos-wrapper">
+    <!-- START SCOPE HEADER -->
+      <!-- <header class="header-wrapper">
+        <div class="container">
+          <div class="box-header">
+            <div class="introduce">
+              <span>
+                Selamat datang di PT. Apecsa Optima Solusi
+              </span>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <span>admin@apecsa-indonesia.com</span>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <span>(021) 234 454</span>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <span>Cilandak, Jakarta Selatan</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header> -->
       <!-- END SCOPE HEADER -->
 
+      <!-- START SCOPE NAVBAR BOOTSTRAP -->
+      <div id="navbar-fixed-apecsaos">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="col-md-12">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-apecsaos" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                  <img src="assets/images/logo/logo.png" alt="ApecsaOS">
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-apecsaos">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li class="active"><a href="services.html">Services</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="career.html">Careers</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- END SCOPE NAVBAR BOOTSTRAP -->
+
       <!-- START SCOPE SUB HEADER -->
+      <section class="sub-header parallax-apecsa bg-service">
+        <div class="bg-overlay-full"></div>
+        <div class="container">
+          <div class="col-md-12">
+            <div class="title">
+              Our Services
+            </div>
+            <div class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem atque perspiciatis animi dicta, quae nesciunt error facere commodi quos odio ex aliquid aspernatur hic nisi accusantium sequi mollitia et? Quos!
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- END SCOPE SUB HEADER -->
       
       <!-- START SCOPE WHAT WE DO -->
+      <section class="development-categories bg-white">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-title-desc">
+              <div class="title color-black bdr-btm-gray">
+                <span class="bg-white">What we do</span>
+              </div>
+              <div class="desc color-black">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque, quisquam blanditiis, voluptatibus, delectus nesciunt tenetur cupiditate quae facere voluptates nihil saepe tempora laboriosam alias a quod! Libero, ipsum, blanditiis.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="box-categories">
+                <div class="col-md-4">
+                  <div class="list-categories">
+                    <div class="box-icon">
+                      <div class="icon bg-red-light">
+                        <i class="fa fa-desktop"></i>
+                      </div>
+                    </div>
+                    <div class="title">
+                      Web Development
+                    </div>
+                    <div class="description">
+                      <p>
+                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="list-categories">
+                    <div class="box-icon">
+                      <div class="icon bg-red-light">
+                        <i class="fa fa-mobile"></i>
+                      </div>
+                    </div>
+                    <div class="title">
+                      Mobile Development
+                    </div>
+                    <div class="description">
+                      <p>
+                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="list-categories">
+                    <div class="box-icon">
+                      <div class="icon bg-red-light">
+                        <i class="fa fa-heart"></i>
+                      </div>
+                    </div>
+                    <div class="title">
+                      Search Engine Optimation
+                    </div>
+                    <div class="description">
+                      <p>
+                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- END SCOPE WHAT WE DO -->
 
       <!-- START SCOPE BUSSINESS PROCCESS DETAIL -->
+      <section class="bg-white">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-title-desc">
+              <div class="title color-black bdr-btm-gray">
+                <span class="bg-white">Business process</span>
+              </div>
+              <div class="desc color-black">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque, quisquam blanditiis, voluptatibus, delectus nesciunt tenetur cupiditate quae facere voluptates nihil saepe tempora laboriosam alias a quod! Libero, ipsum, blanditiis.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-badge"><i class="fa fa-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Title</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod maxime pariatur cupiditate, modi vel deserunt, velit minus tenetur optio, qui sit nemo itaque obcaecati! Quidem unde eveniet reprehenderit aspernatur, vero!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge"><i class="fa fa-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Title</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod maxime pariatur cupiditate, modi vel deserunt, velit minus tenetur optio, qui sit nemo itaque obcaecati! Quidem unde eveniet reprehenderit aspernatur, vero!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge"><i class="fa fa-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Title</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod maxime pariatur cupiditate, modi vel deserunt, velit minus tenetur optio, qui sit nemo itaque obcaecati! Quidem unde eveniet reprehenderit aspernatur, vero!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge"><i class="fa fa-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Title</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod maxime pariatur cupiditate, modi vel deserunt, velit minus tenetur optio, qui sit nemo itaque obcaecati! Quidem unde eveniet reprehenderit aspernatur, vero!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge"><i class="fa fa-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Title</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod maxime pariatur cupiditate, modi vel deserunt, velit minus tenetur optio, qui sit nemo itaque obcaecati! Quidem unde eveniet reprehenderit aspernatur, vero!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge"><i class="fa fa-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Title</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod maxime pariatur cupiditate, modi vel deserunt, velit minus tenetur optio, qui sit nemo itaque obcaecati! Quidem unde eveniet reprehenderit aspernatur, vero!
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <!-- END SCOPE BUSSINESS PROCCESS DETAIL -->
 
       <!-- START SCOPE DEVELOPMENT PROCESS -->
+      <section class="development-process-detail bg-white">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-title-desc">
+              <div class="title color-black bdr-btm-gray">
+                <span class="bg-white">Development process</span>
+              </div>
+              <div class="desc color-black">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- END SCOPE DEVELOPMENT PROCESS -->
 
       <!-- START SCOPE TECHNOLOGIES WE USE-->
+      <section class="technologies-we-use">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-title-desc">
+              <div class="title color-black bdr-btm-gray">
+                <span class="bg-section">Technologies We Use</span>
+              </div>
+              <div class="desc color-black">
+                Beberapa teknologi yang kami gunakan dalam tahap development
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="list-techno">
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="SASS">
+                    <i class="devicon-sass-original"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Amazon Web Services">
+                    <i class="devicon-amazonwebservices-original"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="PHP Storm">
+                    <i class="devicon-phpstorm-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Apache">
+                    <i class="devicon-apache-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Bitbucket">
+                    <i class="devicon-bitbucket-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Twitter Bootstrap">
+                    <i class="devicon-bootstrap-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Codeigniter">
+                    <i class="devicon-codeigniter-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Confluence">
+                    <i class="devicon-confluence-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="CSS3">
+                    <i class="devicon-css3-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Djanggo">
+                    <i class="devicon-django-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Git">
+                    <i class="devicon-git-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Go">
+                    <i class="devicon-go-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Gulp">
+                    <i class="devicon-gulp-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="HTML5">
+                    <i class="devicon-html5-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="jQuery">
+                    <i class="devicon-jquery-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Laravel">
+                    <i class="devicon-laravel-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="MySql">
+                    <i class="devicon-mysql-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Nginx">
+                    <i class="devicon-nginx-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Postgresql">
+                    <i class="devicon-postgresql-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Python">
+                    <i class="devicon-python-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Ruby">
+                    <i class="devicon-ruby-plain"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 sm-3 col-xs-12">
+                  <div class="box-list-tech" data-toggle="tooltip" data-placement="top" title="Ruby On Rails">
+                    <i class="devicon-rails-plain"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- END SCOPE TECHNOLOGIES WE USE-->
 
       <!-- START SCOPE INTRODUCE CONTACT US -->
+      <section class="parallax-apecsa bg-img-2 introduce-wrapper contact-us">
+        <div class="bg-overlay-full"></div>
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-title-desc">
+              <div class="title color-white">
+                <span>Contact Us</span>
+              </div>
+              <div class="desc color-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque, quisquam blanditiis, voluptatibus, delectus nesciunt tenetur cupiditate quae facere voluptates nihil saepe tempora laboriosam alias a quod! Libero, ipsum, blanditiis.
+              </div>
+              <a href="contactus.html" class="btn btn-default btn-lg">
+                <i class="fa fa-envelope"></i>
+                Hubungi Kami
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- END SCOPE INTRODUCE CONTACT US -->
 
       <!-- START SCOPE FOOTER -->
+      <footer class="footer-wrapper">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-footer">
+              <div class="image">
+                <img src="assets/images/logo/logo.png" alt="">
+              </div>
+              <div class="social-media">
+                <a href="http://facebook.com" class="btn btn-default btn-social-media facebook">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="http://twitter.com" class="btn btn-default btn-social-media twitter">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="http://linkedin.com" class="btn btn-default btn-social-media linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="http://instagram.com" class="btn btn-default btn-social-media instagram">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </div>
+              <div class="corpyright">
+                <span>&copy; Corpytight 2016 PT. Apecsa Optima Solusi</span><br>
+                <span>Anything Is Possible</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
       <!-- END SCOPE FOOTER -->
       <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
         <i class="fa fa-chevron-up"></i>
@@ -91,4 +530,4 @@
   <script src="assets/js/jquery.scrolltofixed.js"></script>
   <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/main.js"></script>
-</html>
+  </html>

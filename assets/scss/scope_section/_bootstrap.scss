@@ -8,7 +8,7 @@
 }
 
 .navbar-default {
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.92);
 }
 
 .navbar-collapse,
@@ -48,4 +48,19 @@
 
 .btn{
 	@include border-radius(0px);
+}
+
+// COLLAPSE
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+
+.panel-heading {
+    padding: 20px 15px;
+}
+
+.panel-default {
+    border-color: #ddd;
+    margin-bottom: -6px!important;
 }

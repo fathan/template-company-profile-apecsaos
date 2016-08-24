@@ -14,7 +14,7 @@ $(document).ready(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 	
 	// SCROLL TO FIXED
-	$('#navbar-fixed-apecsaos').scrollToFixed();
+	$('#navbar-fixed-apecsaos').fadeIn(250).scrollToFixed();
 
 	// SET HEIGHT CAROUSEL HOME
 	$('.carousel-car .item').each(function(){
