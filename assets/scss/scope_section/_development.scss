@@ -1,0 +1,129 @@
+.development-categories{
+	.box-categories{
+		margin-top: 60px;
+		width: 100%;
+		display: inline-block;
+
+		.list-categories{
+			width: 100%;
+			text-align:center;
+			margin-bottom: 50px;
+			padding: 35px 0px 0px 0px;
+			@include transition(0.4s);
+			
+			&:hover{
+				.box-icon{
+					background-color: $color-apecsa-red-pink;
+
+					.icon{
+			    		background-color: $color-apecsa-red-pink;
+			    		@include transition(0.4s);
+			    	}
+				}
+
+				.title{
+					color: $color-apecsa-red-pink;
+					@include transition(0.4s);
+				}
+		    }
+
+			&:last-child{
+				padding: 0px;
+			}
+
+			.box-icon{
+				background-color: $color-apecsa-red-light;
+				margin: auto;
+			    width: 160px;
+			    height: 160px;
+			    border-radius: 50%;
+			    padding: 5px;
+			    margin-bottom: 30px;
+			    @include transition(0.4s);
+
+				.icon{
+					width: 150px;
+					height: 150px;
+					@include border-radius(50%);
+					text-align: center;
+					margin: auto;
+					margin-bottom: 20px;
+					color: $color-white;
+					border: 5px solid $color-white;
+					@include transition(0.4s);
+
+					i{
+						font-size: 60px;
+						margin-top: 45px;
+					}
+				}
+			}
+
+			.title{
+				font-size: 20px;
+				margin-bottom: 20px;
+				color: #222222;
+				font-weight: bold;
+				@include transition(0.4s);
+			}
+
+			.description{
+				font-size: 14px;
+				line-height: 25px;
+			}
+		}
+	}
+}
+
+.development-process{
+	width: 100%;
+	display: inline-block;
+
+	.stepwizard-row {
+	    display: table-row;
+
+	    &:before {
+		    top: 35px;
+		    bottom: 0;
+		    position: absolute;
+		    content: " ";
+		    width: 100%;
+		    height: 1px;
+		    background-color: #ccc;
+		    z-order: 0;
+		    
+		}
+	}
+
+	.stepwizard {
+	    display: table;     
+	    width: 100%;
+	    position: relative;
+	    margin-top: 30px;
+	}
+
+	.stepwizard-step{
+		display: table-cell;
+	    text-align: center;
+	    position: relative;
+
+		button[disabled] {
+		    opacity: 1 !important;
+		    filter: alpha(opacity=100) !important;
+		}
+
+		p {
+		    margin-top: 10px;    
+		}
+	}
+
+	.btn-circle {
+	  width: 70px;
+	  height: 70px;
+	  text-align: center;
+	  padding: 6px 0;
+	  font-size: 12px;
+	  line-height: 1.428571429;
+	  @include border-radius(50%);
+	}
+}
