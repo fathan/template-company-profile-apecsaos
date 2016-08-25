@@ -116,12 +116,12 @@ section{
         height: 100%;
         bottom: 0;
         z-index: 0;
-        background : url(http://demo.rocknrolladesigns.com/wordpress/jarvis/text-slider/wp-content/themes/jarvis_wp/images/pattern.png) repeat;
+        background : url(../images/sub_header/header2.jpg) repeat;
     }
 }
 
 .bg-img-1{
-    background-image: url(../images/slider/slider_5.jpg);
+    background-image: url(../images/sub_header/header2.jpg);
     min-height: 100%;
 
     &:before{
@@ -130,7 +130,7 @@ section{
 }
 
 .bg-img-2{
-    background-image: url(../images/slider/slider_5.jpg);
+    background-image: url(../images/sub_header/header2.jpg);
     min-height: 100%;
 
     &:before{
@@ -139,7 +139,7 @@ section{
 }
 
 .bg-service{
-    background-image: url(../images/sub_header/header1.jpg);
+    background-image: url(../images/sub_header/header2.jpg);
     min-height: 100%;
 
     &:before{
@@ -165,4 +165,9 @@ section{
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+// MAPS GOOGLE
+.maps-contact{
+    margin-top: -70px;
 }

@@ -126,12 +126,299 @@
       <!-- END SCOPE NAVBAR BOOTSTRAP -->
       
       <!-- START SCOPE MAPS GOOGLE -->
+      <div class="maps-contact">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCPrHvdSkk62Nk3w-xxzYRBzafIYJbi8xM'></script>
+        <div style='overflow:hidden;height:759px;width:100%;'>
+          <div id='gmap_canvas' style='height:759px;width:100%;'></div>
+        </div> 
+        <a href='https://embed-map.org/'>embed google maps in website</a>
+        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=0581b56618fc3ab620e50998b1861987aad72755'></script>
+        <script type='text/javascript'>
+          function init_map() {
+            var myOptions = {
+              scrollwheel: false,
+              zoom: 15,
+              center: new google.maps.LatLng(-6.2974699, 106.8046039),
+              mapTypeId: google.maps.MapTypeId.TERRAIN
+            };
+            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+            marker = new google.maps.Marker({
+              map: map,
+              position: new google.maps.LatLng(-6.2974699, 106.8046039)
+            });
+            infowindow = new google.maps.InfoWindow({
+              content: '<strong>PT. Apecsa Optima Solusi</strong><br>Jl. Cilandak Permai Raya No.17, Cilandak Barat, Daerah Khusus Ibukota Jakarta<br>12430 Jakarta Selatan<br>'
+            });
+            google.maps.event.addListener(marker, 'click', function() {
+              infowindow.open(map, marker);
+            });
+            infowindow.open(map, marker);
+          }
+          google.maps.event.addDomListener(window, 'load', init_map);
+        </script>
+      </div>
       <!-- END SCOPE MAPS GOOGLE -->
       
       <!-- START SCOPE INFORMATION ADDRESS -->
+      <div class="adresses">
+        <div class="list-data">
+          <ul>
+            <li>
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="info">
+                Jl. Cilandak Permai Raya No.17, Cilandak Barat, Daerah Khusus Ibukota Jakarta
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="info">
+                (021)234543 - (012) 324567
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="info">
+                admin@apecsa-indonesia.com
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
       <!-- END SCOPE INFORMATION ADDRESS -->
       
       <!-- START SCOPE FORM CONTACT US -->
+      <section class="bg-white">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-title-desc">
+              <div class="title color-black bdr-btm-gray">
+                <span class="bg-white">Contact Us</span>
+              </div>
+              <div class="desc color-black">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit a, neque vel molestiae ipsam similique omnis animi repudiandae, numquam praesentium adipisci, eum, eius reprehenderit esse maxime. Nisi consectetur voluptatibus velit.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <div class="tab-form-contact">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                  <a href="#contact-project" aria-controls="contact-project" role="tab" data-toggle="tab">
+                    <i class="fa fa-check-circle"></i>
+                    I wanna talk about project
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a href="#contact-position" aria-controls="contact-position" role="tab" data-toggle="tab">
+                    <i class="fa fa-check-circle"></i>
+                    I wanna apply a position
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a href="#contact-say" aria-controls="contact-say" role="tab" data-toggle="tab">
+                    <i class="fa fa-check-circle"></i>
+                    I Just want to a say
+                  </a>
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="contact-project">
+                  <form action="">
+                    <div class="col-md-6">
+                      <label for="full_name">* Full Name</label>
+                      <input type="text" class="form-control" placeholder="John Doe">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email">* Email</label>
+                      <input type="email" class="form-control" placeholder="E.x: yourname@email.com">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="phone">* Phone</label>
+                      <input type="text" class="form-control" placeholder="E.x: 0857 xxx xxx xxx">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="company_name">* Your Company</label>
+                      <input type="text" class="form-control" placeholder="Your company name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="where_did_you_find_us">Where di you find us</label>
+                      <select name="" id="" class="form-control">
+                        <option value="">where did you find us</option>
+                        <option value="google">Google Search Engine</option>
+                        <option value="friend">Friends</option>
+                        <option value="forum">forum</option>
+                        <option value="others">others</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="budget">Your Budget</label>
+                      <select name="" id="" class="form-control">
+                        <option value="">Your budget</option>
+                        <option value="20000000-50000000">Rp. 20.000.000 - Rp.50.000.000</option>
+                        <option value="50000000-100000000">Rp. 50.000.000 - Rp.100.000.000</option>
+                        <option value="100000000-250000000">Rp. 100.000.000 - Rp.250.000.000</option>
+                        <option value="250000000-500000000">Rp. 250.000.000 - Rp.500.000.000</option>
+                        <option value="500000000-1000000000">Rp. 500.000.000 - Rp.1000.000.000</option>
+                        <option value="1000000000-1500000000">Rp. 1.000.000.000 - Rp.1.500.000.000</option>
+                        <option value="1500000000-2000000000">Rp. 1.500.000.000 - Rp.2.000.000.000</option>
+                      </select>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="website_url">Website URL</label>
+                      <input type="url" class="form-control" placeholder="E.x: http://yoururldomain.com/">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="description">Message</label>
+                      <textarea class="form-control" cols="10" rows="10" placeholder="description"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="file">Document</label>
+                      <input type="file" name="file">
+                    </div>
+                    <div class="col-md-12">
+                      <br>
+                      <button type="submit" name="submit" class="btn btn-lg btn-default">
+                        <i class="fa fa-send"></i>
+                        submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="contact-position">
+                  <form action="">
+                    <div class="col-md-6">
+                      <label for="full_name">* Full Name</label>
+                      <input type="text" class="form-control" placeholder="John Doe">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email">* Email</label>
+                      <input type="email" class="form-control" placeholder="E.x: yourname@email.com">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="phone">* Phone</label>
+                      <input type="text" class="form-control" placeholder="E.x: 0857 xxx xxx xxx">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="company_name">* Your Company</label>
+                      <input type="text" class="form-control" placeholder="Your company name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="where_did_you_find_us">Where di you find us</label>
+                      <select name="" id="" class="form-control">
+                        <option value="">where did you find us</option>
+                        <option value="google">Google Search Engine</option>
+                        <option value="friend">Friends</option>
+                        <option value="forum">forum</option>
+                        <option value="others">others</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="budget">Your Budget</label>
+                      <select name="" id="" class="form-control">
+                        <option value="">Your budget</option>
+                        <option value="20000000-50000000">Rp. 20.000.000 - Rp.50.000.000</option>
+                        <option value="50000000-100000000">Rp. 50.000.000 - Rp.100.000.000</option>
+                        <option value="100000000-250000000">Rp. 100.000.000 - Rp.250.000.000</option>
+                        <option value="250000000-500000000">Rp. 250.000.000 - Rp.500.000.000</option>
+                        <option value="500000000-1000000000">Rp. 500.000.000 - Rp.1000.000.000</option>
+                        <option value="1000000000-1500000000">Rp. 1.000.000.000 - Rp.1.500.000.000</option>
+                        <option value="1500000000-2000000000">Rp. 1.500.000.000 - Rp.2.000.000.000</option>
+                      </select>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="website_url">Website URL</label>
+                      <input type="url" class="form-control" placeholder="E.x: http://yoururldomain.com/">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="description">Message</label>
+                      <textarea class="form-control" cols="10" rows="10" placeholder="description"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="file">Document</label>
+                      <input type="file" name="file">
+                    </div>
+                    <div class="col-md-12">
+                      <br>
+                      <button type="submit" name="submit" class="btn btn-lg btn-default">
+                        <i class="fa fa-send"></i>
+                        submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="contact-say">
+                  <form action="">
+                    <div class="col-md-6">
+                      <label for="full_name">* Full Name</label>
+                      <input type="text" class="form-control" placeholder="John Doe">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email">* Email</label>
+                      <input type="email" class="form-control" placeholder="E.x: yourname@email.com">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="phone">* Phone</label>
+                      <input type="text" class="form-control" placeholder="E.x: 0857 xxx xxx xxx">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="company_name">* Your Company</label>
+                      <input type="text" class="form-control" placeholder="Your company name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="where_did_you_find_us">Where di you find us</label>
+                      <select name="" id="" class="form-control">
+                        <option value="">where did you find us</option>
+                        <option value="google">Google Search Engine</option>
+                        <option value="friend">Friends</option>
+                        <option value="forum">forum</option>
+                        <option value="others">others</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="budget">Your Budget</label>
+                      <select name="" id="" class="form-control">
+                        <option value="">Your budget</option>
+                        <option value="20000000-50000000">Rp. 20.000.000 - Rp.50.000.000</option>
+                        <option value="50000000-100000000">Rp. 50.000.000 - Rp.100.000.000</option>
+                        <option value="100000000-250000000">Rp. 100.000.000 - Rp.250.000.000</option>
+                        <option value="250000000-500000000">Rp. 250.000.000 - Rp.500.000.000</option>
+                        <option value="500000000-1000000000">Rp. 500.000.000 - Rp.1000.000.000</option>
+                        <option value="1000000000-1500000000">Rp. 1.000.000.000 - Rp.1.500.000.000</option>
+                        <option value="1500000000-2000000000">Rp. 1.500.000.000 - Rp.2.000.000.000</option>
+                      </select>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="website_url">Website URL</label>
+                      <input type="url" class="form-control" placeholder="E.x: http://yoururldomain.com/">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="description">Message</label>
+                      <textarea class="form-control" cols="10" rows="10" placeholder="description"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="file">Document</label>
+                      <input type="file" name="file">
+                    </div>
+                    <div class="col-md-12">
+                      <br>
+                      <button type="submit" name="submit" class="btn btn-lg btn-default">
+                        <i class="fa fa-send"></i>
+                        submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- END SCOPE FORM CONTACT US -->
 
       <!-- START SCOPE FOOTER -->

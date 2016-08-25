@@ -1,0 +1,85 @@
+.adresses{
+	width: 100%;
+	display: inline-block;
+
+	.list-data{
+		text-align: center;
+		margin-top: -10px;
+
+		ul{
+			padding-left: 0px;
+
+			li{
+				list-style: none;
+			    width: 33.3333%;
+			    height: 165px;
+			    float: left;
+			    padding: 26px 0px;
+			    background: $color-apecsa-red-pink;
+			    border-right: 1px solid #AB0F4C;
+			    display: inline-block;
+
+				&:last-child{
+					border: 0px;
+				}
+
+				.icon{
+					color: $color-white;
+					margin-bottom: 20px;
+					letter-spacing: 2px;
+					font-family: open-sans-bold;
+
+					i{
+						font-size: 40px;
+					}
+				}
+
+				.info{
+					font-size: 14px;
+					color: $color-white;
+					margin-bottom: 20px;
+					letter-spacing: 2px;
+				}
+			}
+		}
+	}
+}
+
+.tab-form-contact{
+	width: 100%;
+	display: inline-block;
+
+	.tab-content{
+		background: #efefef;
+	    display: inline-block;
+	    padding: 15px 0px;
+	    border: 1px solid #dddddd;
+	    margin-top: 15px;
+
+	    label{
+	    	color: #848484;
+    		font-weight: 500;
+	    }
+
+	    .form-control{
+	    	margin-bottom: 20px;
+	    	display: inline-block;
+	    }
+	}
+}
+
+.tab-form-contact > ul.nav.nav-tabs {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tab-form-contact > ul.nav.nav-tabs > li {
+    float: none;
+    display: table-cell;
+    width: 33.33%;
+}
+
+.tab-form-contact > ul.nav.nav-tabs > li > a {
+    text-align: center;
+}

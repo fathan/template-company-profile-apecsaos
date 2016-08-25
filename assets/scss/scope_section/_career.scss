@@ -1,0 +1,32 @@
+.list-career{
+	width: 100%;
+	display: inline-block;
+
+	.image-career{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+
+		img{
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+	}
+
+	.content{
+		.title{
+			font-family: open-sans-bold;
+			font-size: 25px;
+			margin-bottom: 25px;
+			letter-spacing: 2px;
+		}
+
+		.desc{
+			font-size: 16px;
+			line-height: 25px;
+			letter-spacing: 2px;
+			margin-bottom: 20px;
+		}
+	}
+}

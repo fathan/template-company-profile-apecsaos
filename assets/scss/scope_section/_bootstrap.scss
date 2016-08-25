@@ -50,6 +50,11 @@
 	@include border-radius(0px);
 }
 
+// FORM
+.form-control{
+  border-radius: 0px;
+}
+
 // COLLAPSE
 .panel-group .panel {
     margin-bottom: 0;
@@ -117,17 +122,55 @@
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
     width: 750px;
-}
+  }
 }
 
 @media (min-width: 992px) {
   .modal-fullscreen .modal-dialog {
     width: 970px;
-}
+  }
 }
 
 @media (min-width: 1200px) {
   .modal-fullscreen .modal-dialog {
-   width: 1170px;
+    width: 1170px;
+  }
 }
+
+// TABS
+
+.nav-tabs {
+  border-bottom: 0px solid #ddd;
+}
+
+.nav-tabs > li > a {
+  margin-right: -1px;
+  line-height: 1.42857143;
+  border-radius: 0px 0px 0 0;
+  border-bottom: 0px;
+}
+
+.nav-tabs li, .nav-tabs li a {
+    color: #cd2266;
+    text-decoration: none;
+}
+
+.nav-tabs > li > a:hover {
+  border-color: #cd2266 #cd2266 #cd2266;
+  color: $color-white;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cd2266;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #cd2266;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #FFFFFF;
+  cursor: default;
+  background-color: #cd2266;
+  border: 1px solid #cd2266;
+  border-bottom-color: transparent;
 }
