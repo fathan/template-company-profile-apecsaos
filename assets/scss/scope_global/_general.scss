@@ -73,30 +73,29 @@ section{
     color: #FFFFFF;
     cursor: pointer;
     border: 1px solid #961f4e;
-    border-radius: 0px;
     text-decoration: none;
     transition: opacity 0.2s ease-out;
     opacity: 0;
     font-size: 20px;
     padding: 0px;
-    border-radius: 50%;
     @include transition(0.4s);
-}
 
-#back-to-top:hover {
-    background: #FFFFFF;
-    color: #3a536d;
-    @include transition(0.4s);
-}
+    &:hover {
+        background: #FFFFFF;
+        color: #3a536d;
+        @include transition(0.4s);
+    }
 
-#back-to-top.show {
-    opacity: 1;
+    &.show {
+        opacity: 1;
+    }
 }
 
 // SLIDER
 .slider-apecsa{
     width: 100%;
     display: inline-block;
+    margin-bottom: -5px;
 }
 
 // PARALLAX

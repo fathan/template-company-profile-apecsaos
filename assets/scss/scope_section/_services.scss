@@ -1,0 +1,19 @@
+.technologies-we-use{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+
+	&:after {
+	    border-top: 45px solid #f1f1f1;
+	    border-left: 40px solid transparent;
+	    border-right: 40px solid transparent;
+	    bottom: -40px;
+	    content: "";
+	    position: absolute;
+	    left: 49%;
+	    margin-left: -21px;
+	    width: 0;
+	    height: 0;
+	    z-index: 99;
+	}
+}

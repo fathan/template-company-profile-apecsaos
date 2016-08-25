@@ -29,6 +29,21 @@
 .counting-data{
 	width: 100%;
 	display: inline-block;
+	position: relative;
+
+	&:after {
+	    border-top: 45px solid $color-apecsa-red-pink;
+	    border-left: 40px solid transparent;
+	    border-right: 40px solid transparent;
+	    bottom: -40px;
+	    content: "";
+	    position: absolute;
+	    left: 49%;
+	    margin-left: -21px;
+	    width: 0;
+	    height: 0;
+	    z-index: 99;
+	}
 
 	.list-data{
 		text-align: center;
@@ -70,6 +85,21 @@
 .our-team{
 	width: 100%;
 	display: inline-block;
+	position: relative;
+
+	&:after {
+	    border-top: 45px solid #FFFFFF;
+	    border-left: 40px solid transparent;
+	    border-right: 40px solid transparent;
+	    bottom: -40px;
+	    content: "";
+	    position: absolute;
+	    left: 49%;
+	    margin-left: -21px;
+	    width: 0;
+	    height: 0;
+	    z-index: 99;
+	}
 
 	.list-team{
 		width: 100%;
@@ -90,7 +120,7 @@
 
 					.overlay{
 						position: absolute;
-						background: rgba(0, 0, 0, 0.43);
+						background: rgba(188, 31, 92, 0.87);
 						top: 0;
 						bottom: 0;
 						left: 0;
