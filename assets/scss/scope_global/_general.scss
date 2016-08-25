@@ -1,6 +1,8 @@
-body{
+html {
 	font-family: open-sans-regular;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -11,7 +13,6 @@ a{
 
 section{
     padding: 100px 0px;
-    margin-bottom: -5px;
     background: #f1f1f1;
 
     .box-title-desc{
@@ -64,7 +65,6 @@ section{
     position: fixed;
     bottom: 100px;
     right: 40px;
-    z-index: 9999;
     width: 37px;
     height: 37px;
     text-align: center;

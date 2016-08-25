@@ -3,35 +3,27 @@
 	display: inline-block;
 
 	.image-portfolio {
-		display: inline-block;
+		background: url("../images/mackbook.png") no-repeat;
+		display: block;
 		width: 350px;
 		height: 200px;
-		margin-bottom: 50px;
-		margin: 0 auto;
+		margin: 30px auto;
 		padding: 17px 44px 20px 44px;
 		background-size: contain;
 		position: relative;
 		overflow: hidden;
-	    background-image: url(../images/mackbook.png) no-repeat;
-	    // background-size: 100% 100%;
-
-		// display: inline-block;
-		// height: 302px;
-		// margin: 0 auto;
-		// padding: 17px 44px 20px 44px;
-		// background: url(../images/mackbook.png) no-repeat;
-		// background-size: contain;
-		// position: relative;
-		// // z-index: 10;
-		// width: 350px;
-		// overflow: hidden;
 
 	    .box-image{
 	    	position: absolute;
 		    margin: auto;
-		    width: 74%;
+		    width: 73%;
 		    height: 81%;
 		    overflow: hidden;
+			transition: all 6s ease-out 0s;
+			-webkit-transition: all 6s ease-out 0s;
+			-moz-transition: all 6s ease-out 0s;
+			-ms-transition: all 6s ease-out 0s;
+			-o-transition: all 6s ease-out 0s;
 
 		    &:hover{
 		    	overflow: hidden;
@@ -42,7 +34,7 @@
 	    		position: absolute;
 			    width: 100%;
 			    height: auto;
-			    transition: top 1s ease-out 0s;
+			    transition: top 6s ease-out 0s;
 			}
 	    }
 	}

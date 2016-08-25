@@ -1,0 +1,62 @@
+.modal-portfolio-detail{
+	display: inline-block;
+	width: 100%;
+	margin-top: 50px;
+
+	.title-top{
+		margin-bottom: 40px;
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		position: relative;
+
+		.icon{
+			position: absolute;
+			float: right;
+			top: 0px;
+			right: 0px;
+		}
+
+		span{
+			font-size: 25px;
+			color: #000000;
+			text-transform: uppercase;
+			font-family: open-sans-bold;
+			letter-spacing: 2px;
+		}
+	}
+
+	.content{
+		width: 100%;
+		display: inline-block;
+
+		.image{
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+			border: 1px solid #CCCCCC;
+			margin-bottom: 50px;
+
+			img{
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+		}
+	}
+
+	.sidebar{
+		width: 100%;
+		display: inline-block;
+
+		.title-sidebar{
+			font-size: 20px;
+			color: #222222;
+			width: 100%;
+			display: inline-block;
+			margin-bottom: 20px;
+			font-family: open-sans-bold;
+			letter-spacing: 2px;
+		}
+	}
+}
