@@ -7,3 +7,29 @@
     background-color: #222222;
     border: 0px;
 }
+
+.btn-apecsa-red{
+	font-family: source-sans-pro-regular;
+    color: #fff;
+    background-color: #bc1f5c;
+    border-color: #bc1f5c;
+
+    &:hover{
+    	background-color: #a01c4f;
+	    color: #FFFFFF;
+	    border-color: #a01c4f;
+    }
+}
+
+.btn-apecsa-orange{
+	font-family: source-sans-pro-regular;
+    color: #fff;
+    background-color: #f17732;
+    border-color: #f17732;
+
+    &:hover{
+    	background-color: #d86523;
+	    color: #FFFFFF;
+	    border-color: #d86523;
+    }
+}

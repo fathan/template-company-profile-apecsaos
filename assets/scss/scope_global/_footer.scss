@@ -3,10 +3,12 @@
 	text-align: center;
 	padding: 70px 0px;
 	margin-top: -5px;
+	position: relative;
 
 	.box-footer{
 		margin: auto;
 		display: inline-block;
+		z-index: 999;
 
 		.image{
 			margin-bottom: 25px;
@@ -80,4 +82,32 @@
 			}
 		}
 	}
+}
+
+.diagonal-shadow::before, .diagonal-shadow::after {
+    top: 0;
+    left: -25%;
+    z-index: 6;
+    width: 150%;
+    height: 25%;
+    background: inherit;
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.diagonal-shadow::before, .diagonal-shadow::after {
+    position: absolute;
+    content: '';
+    pointer-events: none;
+}
+
+.diagonal-shadow::before {
+    height: 25%;
+    background: $color-apecsa-red-pink;
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    -webkit-transform-origin: 3% 0;
+    transform-origin: 3% 0;
 }

@@ -68,11 +68,13 @@
 				color: #222222;
 				font-weight: bold;
 				@include transition(0.4s);
+				font-family: source-sans-pro-regular;
 			}
 
 			.description{
 				font-size: 14px;
 				line-height: 25px;
+				font-family: source-sans-pro-regular;
 			}
 		}
 	}
