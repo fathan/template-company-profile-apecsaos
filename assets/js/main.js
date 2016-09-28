@@ -8,7 +8,7 @@ website: http://apecsa-indonesia.com
 -----------------------------------*/
 
 $(document).ready(function () {
-	jQuery.scrollSpeed(100, 800);
+	// jQuery.scrollSpeed(100, 800);
 	
 	new WOW().init();
 	
